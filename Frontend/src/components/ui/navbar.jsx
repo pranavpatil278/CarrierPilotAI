@@ -1,6 +1,4 @@
-import { motion } from "framer-motion";
-import { CalendarDays } from "lucide-react";
-import { useState, useEffect } from "react";
+import { postAI } from "@/lib/api";
 
 export default function Navbar() {
   const [userEmail, setUserEmail] = useState("");

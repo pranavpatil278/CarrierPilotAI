@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import { BrainCircuit } from "lucide-react";
+import { postAI } from "@/lib/api";
 
 export default function SkillsCard({ skills = [] }) {
   return (

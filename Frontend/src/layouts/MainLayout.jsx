@@ -1,6 +1,4 @@
-import Sidebar from "../components/ui/sidebar";
-import Navbar from "../components/ui/navbar";
-import { Outlet } from "react-router-dom";
+import { postAI } from "@/lib/api";
 
 export default function MainLayout() {
   return (

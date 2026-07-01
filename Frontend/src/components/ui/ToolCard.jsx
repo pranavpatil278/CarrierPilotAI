@@ -1,4 +1,4 @@
-import React from "react";
+import { postAI } from "@/lib/api";
 
 export default function ToolCard({ tool, onClick }) {
   const Icon = tool.icon;

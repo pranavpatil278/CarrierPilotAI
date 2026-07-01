@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { postAI } from "../lib/api";
+import { postAI } from "@/lib/api";
 
 const JobMatcher = () => {
   const [skills, setSkills] = useState("");

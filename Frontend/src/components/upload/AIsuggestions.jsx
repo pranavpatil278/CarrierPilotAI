@@ -1,18 +1,10 @@
-import { motion } from "framer-motion";
-import {
-  Sparkles,
-  CircleCheck,
-  TriangleAlert,
-  Lightbulb,
-  ChevronDown,
-} from "lucide-react";
-import { useState } from "react";
+import { postAI } from "@/lib/api";
 
 export default function AISuggestions({
   suggestions = [],
   missingKeywords = [],
 }) {
-  const [expandedSection, setExpandedSection] = useState(null);
+  const [expandedSection, setExpandedSection] = (null);
 
   // Parse suggestions into organized sections
   const parseSuggestions = () => {

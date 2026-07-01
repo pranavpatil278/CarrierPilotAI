@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import { UploadCloud, FileText, CheckCircle2 } from "lucide-react";
+import { postAI } from "@/lib/api";
 
 export default function UploadBox({
   file,

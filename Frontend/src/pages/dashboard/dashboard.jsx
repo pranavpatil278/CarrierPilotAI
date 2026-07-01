@@ -1,18 +1,4 @@
-import { motion } from "framer-motion";
-import { useMemo, useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import {
-  Briefcase,
-  FileText,
-  Sparkles,
-  Loader2,
-} from "lucide-react";
-
-import Card from "../../components/ui/Card";
-import StatCard from "../../components/ui/statcard";
-import Button from "../../components/ui/Button";
-import OnboardingModal from "../../components/ui/OnboardingModal";
-import { postAI } from "../../lib/api";
+import { postAI } from "@/lib/api";
 
 function loadResumeHistory() {
   try {

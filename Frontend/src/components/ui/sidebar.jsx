@@ -1,20 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
-import {
-  LayoutDashboard,
-  Upload,
-  Briefcase,
-  Bot,
-  Sparkles,
-  GraduationCap,
-  FileText,
-} from "lucide-react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { postAI } from "@/lib/api";
 
 export default function Sidebar() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const [userName, setUserName] = React.useState("CareerPilot User");
+  const [userName, setUserName] = ("CareerPilot User");
 
   React.useEffect(() => {
     try {

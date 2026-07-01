@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { postAI } from "@/lib/api";
 
 export default function ProfessionalProgress({
   progress,

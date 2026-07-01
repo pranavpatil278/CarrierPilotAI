@@ -1,11 +1,4 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { FileText, WandSparkles, Sparkles } from "lucide-react";
-
-import ProfessionalCard from "../components/ui/ProfessionalCard";
-import ProfessionalButton from "../components/ui/ProfessionalButton";
-import ProfessionalAlert from "../components/ui/ProfessionalAlert";
-import { postAI } from "../lib/api";
+import { postAI } from "@/lib/api";
 
 export default function ResumeBuilder() {
   const [text, setText] = useState("");

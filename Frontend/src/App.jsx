@@ -1,20 +1,4 @@
-import { Routes, Route } from "react-router-dom";
-
-import Home from "./pages/Home/Home";
-import Login from "./pages/login/login";
-import Register from "./pages/register/register";
-import Verify from "./pages/verify/verify";
-import ForgotPassword from "./pages/forgotpassword/forgotpassword";
-import Dashboard from "./pages/dashboard/dashboard";
-import Upload from "./pages/upload/upload";
-import JobMatcher from "./pages/jobmatcher";
-import AITools from "./pages/aitools";
-import CareerAssistant from "./pages/careerassistant";
-import ResumeBuilder from "./pages/resumebuilder";
-
-import ProtectedRoute from "./components/ProtectedRoute";
-import MainLayout from "./layouts/MainLayout";
-import { ErrorBoundary } from "./components/ErrorBoundary";
+import { postAI } from "@/lib/api";
 
 function App() {
   return (

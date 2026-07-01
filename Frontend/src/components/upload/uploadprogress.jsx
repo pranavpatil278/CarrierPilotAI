@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import { Brain, FileText, Search, Sparkles } from "lucide-react";
+import { postAI } from "@/lib/api";
 
 const steps = [
   {

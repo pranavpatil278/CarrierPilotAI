@@ -1,16 +1,4 @@
-import { useState } from "react";
-import * as pdfjsLib from "pdfjs-dist";
-import { motion } from "framer-motion";
-import { CheckCircle, AlertCircle, Upload, FileText, Sparkles, TrendingUp, Award } from "lucide-react";
-
-import ProfessionalCard from "../../components/ui/ProfessionalCard";
-import ProfessionalButton from "../../components/ui/ProfessionalButton";
-import ProfessionalBadge from "../../components/ui/ProfessionalBadge";
-import ProfessionalProgress from "../../components/ui/ProfessionalProgress";
-import ProfessionalAlert from "../../components/ui/ProfessionalAlert";
-import UploadProgress from "../../components/upload/uploadprogress";
-import AISuggestions from "../../components/upload/AIsuggestions";
-import { postAI } from "../../lib/api";
+import { postAI } from "@/lib/api";
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",

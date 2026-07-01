@@ -1,10 +1,4 @@
-import { motion } from "framer-motion";
-import {
-  TrendingUp,
-  Award,
-  FileText,
-  Briefcase,
-} from "lucide-react";
+import { postAI } from "@/lib/api";
 
 export default function StatCard({ title, value }) {
   const getIcon = () => {

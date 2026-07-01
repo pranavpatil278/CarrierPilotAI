@@ -1,9 +1,4 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
-import { FileText, GraduationCap } from "lucide-react";
-import ToolCard from "../components/ui/ToolCard";
-import RightDrawer from "../components/ui/RightDrawer";
+import { postAI } from "@/lib/api";
 
 const tools = [
   {

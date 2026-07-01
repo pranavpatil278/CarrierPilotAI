@@ -1,8 +1,8 @@
-import { Component } from "react";
+import { postAI } from "@/lib/api";
 
-export class ErrorBoundary extends Component {
+export class ErrorBoundary {
   constructor(props) {
-    super(props);
+    this.props = props;
     this.state = { hasError: false, error: null };
   }
 

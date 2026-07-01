@@ -1,10 +1,4 @@
-import { motion } from "framer-motion";
-import {
-  FileText,
-  HardDrive,
-  Calendar,
-  CheckCircle2,
-} from "lucide-react";
+import { postAI } from "@/lib/api";
 
 export default function ResumeDetails({
   fileName,

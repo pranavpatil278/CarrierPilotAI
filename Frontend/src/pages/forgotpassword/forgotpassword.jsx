@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { postAI } from "@/lib/api";
 
 export default function ForgotPassword() {
   const [step, setStep] = useState("identifier"); // identifier, verify, reset

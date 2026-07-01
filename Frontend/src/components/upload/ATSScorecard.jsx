@@ -1,11 +1,4 @@
-import { motion } from "framer-motion";
-import { Award, TrendingUp } from "lucide-react";
-import {
-  CircularProgressbar,
-  buildStyles,
-} from "react-circular-progressbar";
-
-import "react-circular-progressbar/dist/styles.css";
+import { postAI } from "@/lib/api";
 
 export default function ATSScoreCard({ score }) {
   const getColor = () => {
