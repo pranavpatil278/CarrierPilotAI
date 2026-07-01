@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Global base styles */
+body {
+  @apply bg-slate-950 text-slate-100 font-sans antialiased;
+  margin: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better box model */
+* {
+  box-sizing: border-box;
+}
