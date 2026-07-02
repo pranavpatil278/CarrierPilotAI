@@ -52,3 +52,16 @@ CarrierPilotAI is a full-stack career assistant web application that helps users
 
 - Add any required environment variables to `Backend/.env`
 - Update API endpoints in frontend if backend URL changes
+
+- ## 👨‍💻 Author
+
+**Pranav Patil**
+
+- GitHub: https://github.com/pranavpatil278
+- LinkedIn: https://www.linkedin.com/in/pranav-patil-5a3a793aa
+
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub. Your support is appreciated!
+
