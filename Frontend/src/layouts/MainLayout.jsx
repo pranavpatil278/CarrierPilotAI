@@ -4,8 +4,8 @@ import { NavLink, Outlet } from "react-router-dom";
 const navItems = [
   { to: "/dashboard", label: "Dashboard" },
   { to: "/upload", label: "Upload Resume" },
-  { to: "/ai-tools", label: "AI Tools" },
   { to: "/job-matcher", label: "Job Matcher" },
+  { to: "/ai-tools", label: "AI Tools" },
 ];
 
 export default function MainLayout() {
@@ -36,9 +36,9 @@ export default function MainLayout() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto flex min-h-screen max-w-7xl flex-col lg:flex-row">
-        <aside className="w-full border-b border-slate-800 bg-slate-900/80 p-6 lg:w-72 lg:border-b-0 lg:border-r">
+    <div className="min-h-screen h-screen bg-slate-950 text-slate-100">
+      <div className="mx-auto flex h-full max-w-7xl flex-col lg:flex-row">
+        <aside className="w-full border-b border-slate-800 bg-slate-900/80 p-6 lg:h-full lg:w-72 lg:border-b-0 lg:border-r">
           <div className="mb-8">
             <h1 className="text-2xl font-semibold">CareerPilot AI</h1>
             <p className="mt-1 text-sm text-slate-400">Your AI career workspace</p>
