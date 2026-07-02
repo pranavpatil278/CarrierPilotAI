@@ -1,8 +1,8 @@
-import { postAI } from "@/lib/api";
+import React from "react";
 
-export class ErrorBoundary {
+class ErrorBoundary extends React.Component {
   constructor(props) {
-    this.props = props;
+    super(props);
     this.state = { hasError: false, error: null };
   }
 
@@ -19,9 +19,7 @@ export class ErrorBoundary {
       return (
         <div className="min-h-screen flex items-center justify-center bg-slate-900 p-6">
           <div className="max-w-2xl w-full bg-red-500/10 border border-red-500/40 rounded-2xl p-8">
-            <h1 className="text-3xl font-bold text-red-200 mb-4">
-              Something went wrong
-            </h1>
+            <h1 className="text-3xl font-bold text-red-200 mb-4">Something went wrong</h1>
             <p className="text-red-300 mb-4">
               {this.state.error?.message || "An unexpected error occurred"}
             </p>
@@ -45,3 +43,5 @@ export class ErrorBoundary {
     return this.props.children;
   }
 }
+
+export default ErrorBoundary;

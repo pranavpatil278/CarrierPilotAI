@@ -1,4 +1,5 @@
-import { postAI } from "@/lib/api";
+import { motion } from "framer-motion";
+import { AlertTriangle, CheckCircle, Info, XCircle } from "lucide-react";
 
 export default function ProfessionalAlert({
   type = "info",

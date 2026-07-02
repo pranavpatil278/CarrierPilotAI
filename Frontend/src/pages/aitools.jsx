@@ -1,3 +1,7 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import { FileText, GraduationCap } from "lucide-react";
+import { ToolCard, RightDrawer } from "@/components/ui";
 import { postAI } from "@/lib/api";
 
 const tools = [

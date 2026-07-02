@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { GraduationCap, Sparkles } from "lucide-react";
 import { postAI } from "@/lib/api";
 
 export default function CareerAssistant() {

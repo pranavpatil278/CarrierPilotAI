@@ -1,7 +1,7 @@
-import { postAI } from "@/lib/api";
+import { useEffect, useState } from "react";
 
 export default function OnboardingModal() {
-  const [open, setOpen] = (false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     try {

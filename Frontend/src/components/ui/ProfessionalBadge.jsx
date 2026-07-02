@@ -1,4 +1,4 @@
-import { postAI } from "@/lib/api";
+import { motion } from "framer-motion";
 
 export default function ProfessionalBadge({
   children,

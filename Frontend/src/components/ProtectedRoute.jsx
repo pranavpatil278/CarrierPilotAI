@@ -1,11 +1,11 @@
-import { postAI } from "@/lib/api";
+import { Navigate, Outlet } from "react-router-dom";
 
 export default function ProtectedRoute() {
-  const token = localStorage.getItem("token");
+  const token = typeof window !== "undefined" ? localStorage.getItem("token") : null;
 
   if (!token) {
-    return null;
+    return <Navigate to="/login" replace />;
   }
 
-  return null;
+  return <Outlet />;
 }

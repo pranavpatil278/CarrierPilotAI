@@ -1,4 +1,4 @@
-import { postAI } from "@/lib/api";
+import { X } from "lucide-react";
 
 export default function RightDrawer({ open, onClose, title, children }) {
   return (

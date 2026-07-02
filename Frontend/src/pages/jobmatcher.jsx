@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { postAI } from "@/lib/api";
 
 const JobMatcher = () => {

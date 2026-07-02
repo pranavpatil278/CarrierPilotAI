@@ -1,9 +1,13 @@
-import { postAI } from "@/lib/api";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import { Bot, Briefcase, LayoutDashboard, Sparkles, Upload } from "lucide-react";
 
 export default function Sidebar() {
-  const [userName, setUserName] = ("CareerPilot User");
+  const navigate = useNavigate();
+  const [userName, setUserName] = useState("CareerPilot User");
 
-  React.useEffect(() => {
+  useEffect(() => {
     try {
       const name = localStorage.getItem("cp_user_name");
       if (name) setUserName(name);
