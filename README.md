@@ -1,4 +1,4 @@
-# CarrierPilotAI
+#  🚀 CarrierPilotAI
 
 CarrierPilotAI is a full-stack career assistant web application that helps users analyze resumes, calculate ATS scores, and generate personalized resume improvement suggestions using AI.
 
