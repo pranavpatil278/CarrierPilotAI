@@ -23,6 +23,9 @@ CarrierPilotAI is a full-stack career assistant web application that helps users
 ## Setup
 
 1. Clone the repository
+   ```bash
+   git clone https://github.com/pranavpatil278/CarrierPilotAI.git
+   ```
 2. Install backend dependencies:
    ```bash
    cd Backend
